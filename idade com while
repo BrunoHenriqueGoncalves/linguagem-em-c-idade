@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+
+int main() {
+int idade;
+    printf("Digite sua idade: ");
+    scanf(" %d", &idade);
+    
+    while(idade < 0 || idade > 130){
+        printf("digite uma idade válida seu leproso: ");
+        scanf(" %d", &idade);
+    }
+    
+    if(idade >= 65){
+        printf("buteco");
+    }else if(idade >= 18){
+        printf(" entre na festa do mc negao ");
+    }else if(idade<12){
+        printf(" chora irmaozinho ");
+    }else{
+        printf("espiadinhada de leve " );
+    }
+    printf(" \n vai pra casa dormir fi de rapariga ");
+    return 0;
+    
+    
+}
